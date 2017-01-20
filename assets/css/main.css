@@ -1,4 +1,5 @@
 /*	TOOLS */
+
 .align-left {
 	text-align: left;
 }
@@ -22,7 +23,7 @@
 	clear: right;
 }
 
-/************ CONTENT ELEMENTS ***************************************/
+/************ CONTENT ELEMENTS *************/
 /**** CATEGORY SIDEBAR - Applies to all instances*****/ 
 .category-group {
 	margin-left: 90px;
@@ -46,28 +47,17 @@
 /**** CATEGORY CONTENT ****/
 .category-project-group {
 	margin-bottom: 80px;
-	float: left;
+	
 }
 
 /* CAPTION ELEMENTS */
 
 .caption-text-group {
 	margin-top: 17px;
-	float: left;
-
 }
 
 .caption-group {
 	margin-top: 12px;
-	float: left;
-}
-
-.caption-graphic-category {
-	margin-top: 17px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
-	font-size: 0.875em;
-	float: left;
 }
 
 .caption-company {
@@ -75,13 +65,12 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 0.875em;
-	float: left;
+	
 }
 
 .caption-description {
-
 	font-family: 'PT serif', serif;
-	float: left;
+	
 }
 
 
@@ -91,7 +80,6 @@
 	height: 210px;
 	background-color: #D8D8D8;
 	padding-right: 78px;
-	float: left;
 	width: 85%;
 }
 
@@ -99,8 +87,7 @@
 	height: 210px;
 	background-color: #D8D8D8;
 	padding-right: 78px;
-	float: left;
-	width: 40%;
+	width: 60%;
 }
 
 
@@ -110,7 +97,6 @@
 	height: 62px;
 	background-color: #D8D8D8;
 	float: left;
-
 }
 
 
