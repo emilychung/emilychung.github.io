@@ -1,3 +1,4 @@
+/*	TOOLS */
 .align-left {
 	text-align: left;
 }
@@ -6,13 +7,120 @@
 	text-align: right;
 }
 
-.header {
-	margin-top: 25px;
-	height: 70px;
+.line-break {
+	display: block;
+	background-color: gray;
+	margin-bottom: 48px;
+	height: 1px;
 }
 
-.banner {
+.clear-all {
+	clear: all;
+}
 
+.clear-right {
+	clear: right;
+}
+
+/************ CONTENT ELEMENTS ***************************************/
+/**** CATEGORY SIDEBAR - Applies to all instances*****/ 
+.category-group {
+	margin-left: 90px;
+
+}
+
+.category-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.500em;
+	text-align: right;
+	padding-bottom: 50px;
+}
+
+.category-description {
+	font-family: 'PT Serif',serif;
+	text-align: left;
+}
+
+
+/**** CATEGORY CONTENT ****/
+.category-project-group {
+	margin-bottom: 80px;
+	float: left;
+}
+
+/* CAPTION ELEMENTS */
+
+.caption-text-group {
+	margin-top: 17px;
+	float: left;
+
+}
+
+.caption-group {
+	margin-top: 12px;
+	float: left;
+}
+
+.caption-graphic-category {
+	margin-top: 17px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 0.875em;
+	float: left;
+}
+
+.caption-company {
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 0.875em;
+	float: left;
+}
+
+.caption-description {
+
+	font-family: 'PT serif', serif;
+	float: left;
+}
+
+
+/* IMAGE THUMBNAILS*/ 
+
+.category-interaction-thumbnail {
+	height: 210px;
+	background-color: #D8D8D8;
+	padding-right: 78px;
+	float: left;
+	width: 85%;
+}
+
+.category-graphic-thumbnail {
+	height: 210px;
+	background-color: #D8D8D8;
+	padding-right: 78px;
+	float: left;
+	width: 40%;
+}
+
+
+.icon-thumbnail {
+	margin-right: 25px;
+	width: 62px;
+	height: 62px;
+	background-color: #D8D8D8;
+	float: left;
+
+}
+
+
+
+/* BANNER */
+.banner {
+	height: 375px;
+	width: 100%;
+	background-color: #D1D1D1;
+	margin-bottom: 60px;
 }
 
 .profile-pic {
@@ -20,8 +128,9 @@
 	height: 250px;
 	width: 250px;
 	max-width: 100%;
-	background-color: gray;
+	background-color: #D8D8D8;
 	margin-right: 87px;	
+	margin-top: 114px;
 }
 
 .profile-text {
@@ -29,17 +138,22 @@
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	margin-top: 20%;
-
-
+	margin-top: 50%;
 }
+
+/* HEADER */
+.header {
+	margin-top: 25px;
+	height: 70px;
+}
+
 #logo-name {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 1.500em;
-
 }
 
+/* NAVIGATION */
 nav {
 	text-align: right;
 	margin-top: 18px;
@@ -57,5 +171,5 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	font-weight: 600;
+	font-weight: 700;
 }

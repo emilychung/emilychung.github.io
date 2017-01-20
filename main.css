@@ -12,15 +12,40 @@
 }
 
 .banner {
+	height: 375px;
+	width: 100%;
+	background-color: black;
+	margin-bottom: 80px;
+}
+
+.line-break {
+	display: block;
+	background-color: gray;
+	padding-top: 80px;
+	padding-bottom: 48px;
+	height: 300px;
+}
+
+.category-group {
+	margin-left: 87px;
+	border: 1px solid black;
+	height:100%;
+	width: 100%;
 
 }
+
+.category-title {
+
+}
+
+.category-caption
 
 .profile-pic {
 	display: inline-block;
 	height: 250px;
 	width: 250px;
 	max-width: 100%;
-	background-color: gray;
+	background-color: red;
 	margin-right: 87px;	
 }
 
