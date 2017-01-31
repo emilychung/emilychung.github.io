@@ -23,6 +23,10 @@
 	clear: right;
 }
 
+#sub-bar-spacing{
+	width: 85%;
+
+}
 /************ CONTENT ELEMENTS *************/
 /**** CATEGORY SIDEBAR - Applies to all instances*****/ 
 .category-group {
@@ -64,7 +68,7 @@
 
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	font-size: 0.875em;
+	font-size: 1em;
 	
 }
 
@@ -84,12 +88,19 @@
 }
 
 .category-graphic-thumbnail {
-	height: 210px;
+	height: 260px;
 	background-color: #D8D8D8;
 	padding-right: 78px;
 	width: 60%;
 }
 
+.category-artwork-thumbnail {
+	height: 125px;
+	width: 85%;
+	background-color: #D8D8D8;
+	padding-right: 78px;
+
+}
 
 .icon-thumbnail {
 	margin-right: 25px;
