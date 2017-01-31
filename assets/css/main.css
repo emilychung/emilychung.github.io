@@ -23,10 +23,50 @@
 	clear: right;
 }
 
-#sub-bar-spacing{
+#sub-bar-spacing {
 	width: 85%;
-
 }
+
+.thumbnail-styling {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+/******** PAGE DISPLAY ELEMENTS ********/
+/**** HOVER ****/
+div .category-interaction-thumbnail:hover .thumbnail-overlay {
+	opacity: 1;
+}
+
+.thumbnail-overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(128, 128, 128, 0.5);
+	opacity: 0;
+	position: absolute;
+	transition: opacity 250ms ease-in;
+}
+
+.thumbnail-more-style{
+	color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	
+}
+
+/************* IMAGES ***********************/
+#interaction1 {
+	background-image: url("../images/gurl.PNG");
+}
+
+
 /************ CONTENT ELEMENTS *************/
 /**** CATEGORY SIDEBAR - Applies to all instances*****/ 
 .category-group {
@@ -81,10 +121,12 @@
 /* IMAGE THUMBNAILS*/ 
 
 .category-interaction-thumbnail {
-	height: 210px;
 	background-color: #D8D8D8;
-	padding-right: 78px;
-	width: 85%;
+	margin-right: 78px;
+	height: 210px;
+	width: 100%;
+	position: relative;
+	
 }
 
 .category-graphic-thumbnail {
